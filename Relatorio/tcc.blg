@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tcc.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: abntex2-options.bib
+Database file #2: bibliografia.bib
+Warning--entry type for "ISM" isn't style-file defined
+--line 83 of file bibliografia.bib
+Warning--entry type for "NASA" isn't style-file defined
+--line 138 of file bibliografia.bib
+Warning--entry type for "eg&goptoelectronics1997" isn't style-file defined
+--line 199 of file bibliografia.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em ISM
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex2.googlecode.com                           |
++---------------------------------------------------------+
+You've used 25 entries,
+            6711 wiz_defined-function locations,
+            1337 strings with 12489 characters,
+and the built_in function-call counts, 19846 in all, are:
+= -- 1790
+> -- 613
+< -- 97
++ -- 383
+- -- 189
+* -- 1316
+:= -- 2759
+add.period$ -- 84
+call.type$ -- 25
+change.case$ -- 221
+chr.to.int$ -- 37
+cite$ -- 25
+duplicate$ -- 1078
+empty$ -- 1425
+format.name$ -- 902
+if$ -- 4643
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 431
+newline$ -- 116
+num.names$ -- 116
+pop$ -- 561
+preamble$ -- 1
+purify$ -- 92
+quote$ -- 0
+skip$ -- 1355
+stack$ -- 1
+substring$ -- 619
+swap$ -- 434
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 1
+while$ -- 149
+width$ -- 0
+write$ -- 358
+(There were 4 warnings)

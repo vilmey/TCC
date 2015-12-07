@@ -1,0 +1,139 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[Al-Azzawi 2007]{Azzawi}
+\abntrefinfo{Al-Azzawi}{AL-AZZAWI}{2007}
+{AL-AZZAWI, A. \emph{Fiber optics: principles and practices}. Boca Raton, FL:
+  CRC/Taylor, 2007. Dispon{\'\i}vel em:
+  \url{https://cds.cern.ch/record/1019740}.}
+
+\bibitem[Alexander e B. 1997]{alexanderstephenb.1997}
+\abntrefinfo{Alexander e B.}{ALEXANDER; B.}{1997}
+{ALEXANDER; B., S. \emph{Optical Communication Receiver Design}. [S.l.]: SPIE
+  Optical Engineering Press, 1997.}
+
+\bibitem[Alexander e B 1997]{alexanderstephenb1997}
+\abntrefinfo{Alexander e B}{ALEXANDER; B}{1997}
+{ALEXANDER; B, S. \emph{Optical Communication Receiver Design}. [S.l.]: SPIE
+  Optical Engineering Press, 1997.}
+
+\bibitem[Bell 1880]{Fotofone}
+\abntrefinfo{Bell}{BELL}{1880}
+{BELL, A.~G. \emph{Selenium and the photophone}.
+[S.l.], 1880.}
+
+\bibitem[Bisdikian 2001]{Bluetooth}
+\abntrefinfo{Bisdikian}{BISDIKIAN}{2001}
+{BISDIKIAN, C. An overview of the bluetooth wireless technology.
+\emph{IEEE Communication Magazine}, v.~39, n.~12, p. 86--94, dec 2001.}
+
+\bibitem[Bouchet 2006]{boucheto.2006}
+\abntrefinfo{Bouchet}{BOUCHET}{2006}
+{BOUCHET, O. \emph{Free-Space Optics Propagation and Communication.} [S.l.]:
+  ISTE Ltd, 2006.}
+
+\bibitem[Danakis et al. 2012]{c.danakism.afganig.poveyiunderwoodh.haas2012}
+\abntrefinfo{Danakis et al.}{DANAKIS et al.}{2012}
+{DANAKIS, C. et al. Using a cmos camera sensor for visible light communication.
+  In:  \emph{IEEE Globecom Workshop on OWC}. [S.l.: s.n.], 2012.}
+
+\bibitem[Encyclopedia]{ISM}
+\abntrefinfo{Encyclopedia}{ENCYCLOPEDIA}{}
+{ENCYCLOPEDIA.
+Dispon{\'\i}vel em: \url{http://www.pcmag.com/encyclopedia/term/65261/u-nii}.}
+
+\bibitem[Friedman, Edward e Miller 2004]{friedman}
+\abntrefinfo{Friedman, Edward e Miller}{FRIEDMAN; EDWARD; MILLER}{2004}
+{FRIEDMAN; EDWARD; MILLER, J.~L. \emph{Photonics rules of thumb:
+  optics,electro- optics,fiber optics, and lasers}. [S.l.]: McGraw-Hill
+  Professional, 2004.}
+
+\bibitem[Gerken e Tausendfreund 2012]{Haan}
+\abntrefinfo{Gerken e Tausendfreund}{GERKEN; TAUSENDFREUND}{2012}
+{GERKEN, H. H.~M.; TAUSENDFREUND, M. Long-range laser communication terminals:
+  Technically interesting, commercially incalculable. In:  (CSNDSP), N. . D.
+  S.~P. (Ed.). \emph{8th International Symposium on Communication Systems}.
+  [S.l.: s.n.], 2012.}
+
+\bibitem[Gfeller e Bapst 1979]{Gfeller}
+\abntrefinfo{Gfeller e Bapst}{GFELLER; BAPST}{1979}
+{GFELLER, F.~R.; BAPST, U. Wireless in-house communication via diffuse infrared
+  radiation. In:  \emph{Proceedings of the IEEE}. [S.l.: s.n.], 1979. p.
+  1474--1486.}
+
+\bibitem[Ghassemlooy 2003]{z.ghassemlooy2003}
+\abntrefinfo{Ghassemlooy}{GHASSEMLOOY}{2003}
+{GHASSEMLOOY, Z. \emph{Indoor Optical Wireless Communication Systems}.
+Northumbria University UK, 2003.}
+
+\bibitem[Hranilovic 2009]{Hranilovic}
+\abntrefinfo{Hranilovic}{HRANILOVIC}{2009}
+{HRANILOVIC, S. \emph{Wireless Optical Communication Systems}. New York, NY,
+  USA: Springer-Verlag New York, Inc., 2009.
+ISBN 1441919821, 9781441919823.}
+
+\bibitem[Kachris et al. 2013]{c.kachrisk.bergmankereni.tomkos2013}
+\abntrefinfo{Kachris et al.}{KACHRIS et al.}{2013}
+{KACHRIS, C. et al. \emph{Optical Interconnects for Future Data Center
+  Networks}. [S.l.]: Springer, 2013.}
+
+\bibitem[McDermott-Wells 2005]{1368913}
+\abntrefinfo{McDermott-Wells}{MCDERMOTT-WELLS}{2005}
+{MCDERMOTT-WELLS, P. What is bluetooth?
+\emph{Potentials, IEEE}, v.~23, n.~5, p. 33--35, Dec 2005.
+ISSN 0278-6648.}
+
+\bibitem[Optoelectronics 1997]{eg&goptoelectronics1997}
+\abntrefinfo{Optoelectronics}{OPTOELECTRONICS}{1997}
+{OPTOELECTRONICS, E. \emph{Choosing the Detector for you Unique Light Sensing
+  Application}. 1997.}
+
+\bibitem[Parca et al. 2008]{g.parcaa.shahpariv.carrozzog.tossia.j.teixeira2008}
+\abntrefinfo{Parca et al.}{PARCA et al.}{2008}
+{PARCA, G. et al. Optical wireless transmissions at 1.6 tbit for the next
+  generation convergent urban infrastructures.
+\emph{Opt. Eng}, 2008.}
+
+\bibitem[Razavi 2011]{Razavi}
+\abntrefinfo{Razavi}{RAZAVI}{2011}
+{RAZAVI, B. \emph{RF Microelectronics (2Nd Edition) (Prentice Hall
+  Communications Engineering and Emerging Technologies Series)}. 2nd. ed. Upper
+  Saddle River, NJ, USA: Prentice Hall Press, 2011.
+ISBN 0137134738, 9780137134731.}
+
+\bibitem[Scherz e Paul 2007]{scherzpaul2007}
+\abntrefinfo{Scherz e Paul}{SCHERZ; PAUL}{2007}
+{SCHERZ; PAUL. \emph{Practical Electronics for Inventors}. [S.l.]: McGraw-Hill,
+  2007.}
+
+\bibitem[Semiconductors 2014]{osramoptosemiconductors2014}
+\abntrefinfo{Semiconductors}{SEMICONDUCTORS}{2014}
+{SEMICONDUCTORS, O.~O. \emph{Silicon PIN Photodiode}.
+Version 1.1. [S.l.], 2014.}
+
+\bibitem[SN 2014]{NASA}
+\abntrefinfo{SN}{SN}{2014}
+{SN. 2014.
+ (http://esc.gsfc.nasa.gov/267/271.html).}
+
+\bibitem[Standage 1998]{Standage:1998}
+\abntrefinfo{Standage}{STANDAGE}{1998}
+{STANDAGE, T. \emph{The Victorian internet: The remarkable story of the
+  telegraph and the nineteenth century's on-line pioneers}. New York: Walker,
+  1998. ix, 227~p.}
+
+\bibitem[Won, Shin e Jung. 2008]{euntaewon&dongjaeshind.k.jung.2008}
+\abntrefinfo{Won, Shin e Jung.}{WON; SHIN; JUNG.}{2008}
+{WON, E.~T.; SHIN, D.; JUNG., D. Visible light communication: Tutorial.
+  PowerPoint. 2008.}
+
+\bibitem[Yu et al. 2013]{Vehicle}
+\abntrefinfo{Yu et al.}{YU et al.}{2013}
+{YU, S.-H. et al. \emph{Smart automotive lighting for vehicle safety}.
+[S.l.], 2013.}
+
+\end{thebibliography}

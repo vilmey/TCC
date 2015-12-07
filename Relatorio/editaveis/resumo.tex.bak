@@ -1,0 +1,12 @@
+\begin{resumo}
+A comunicação óptica se encontra atualmente concentrada em transmissão de dados via meio confinado em especial a fibra óptica. Atualmente estamos desenvolvendo tecnologias para termos os mesmos benefícios de alta transferência de dados da fibra óptica em meios não confinados.
+A tecnologia OWC (Optical Wireless Communication), comunicação óptica sem fio se encontra ainda em desenvolvimento, porém apresentam muitas vantagens em relação a comunicação via radio e outras comunicação cabeadas.
+Este trabalho traz a elaboração de um protótipo de comunicação óptica para transmissão de dados com o uso de luz visível ao olho humano. Com o uso de microcontroladores para comunicação entre maquinas, transmissor e receptor, e computadores para comunicação humano - maquina.
+Os resultados obtidos mostram que a tecnologia, que ainda de encontra em desenvolvimento, tem muito potencial de crescimento nos próximos anos. 
+
+
+ \vspace{\onelineskip}
+    
+ \noindent
+ \textbf{Palavras-chaves}: Comunicação óptica por luz visível, Transmissão de dados,Optical Wireless Communication, Visual Light Communication, VLC.
+\end{resumo}

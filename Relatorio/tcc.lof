@@ -1,0 +1,27 @@
+\select@language {brazil}
+\contentsline {figure}{\numberline {1}{\ignorespaces Desenho do fotofone por Alexander Graham Bell e Charles Tainter \cite {Hranilovic}}}{29}{figure.1.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Espectro de luz vis\IeC {\'\i }vel ao ser humano.}}{32}{figure.1.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Categorias de comunica\IeC {\c c}\IeC {\~a}o \IeC {\'o}ptica baseado no alcance de transmiss\IeC {\~a}o.}}{33}{figure.1.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o de um sistema de comunica\IeC {\c c}\IeC {\~a}o de pequeno alcance.}}{34}{figure.1.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Simula\IeC {\c c}\IeC {\~a}o de um teste de estresse card\IeC {\'\i }aco com base em um VLC. LEDs conectados as transmissores enviam dados ao receptor localizado na barra de apoio do equipamento.}}{34}{figure.1.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Um hot spot VLC, onde a lumin\IeC {\'a}ria funciona como um transmissor e o dispositivo USB como um receptor do sinal.}}{35}{figure.1.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Rede VLC veicular, ve\IeC {\'\i }culos se comunicam entre si e com a infraestrutura fixa na rodovia.}}{36}{figure.1.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Conex\IeC {\~a}o entre pr\IeC {\'e}dios.}}{36}{figure.1.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces FSO podem ser utilizados na comunica\IeC {\c c}\IeC {\~a}o a\IeC {\'e}rea.}}{36}{figure.1.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Tipos de transmiss\IeC {\~a}o e recep\IeC {\c c}\IeC {\~a}o dos dados.}}{37}{figure.1.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Configura\IeC {\c c}\IeC {\~a}o da rede de comunica\IeC {\c c}\IeC {\~a}o ponto a ponto.}}{41}{figure.2.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Esquema simplificado da transmiss\IeC {\~a}o de dados.}}{42}{figure.2.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Codifica\IeC {\c c}\IeC {\~a}o On-Off Keying.}}{43}{figure.2.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Pacote de dados enviados.}}{43}{figure.2.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Jun\IeC {\c c}\IeC {\~a}o p-n de um diodo.\cite {Razavi}}}{44}{figure.2.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Sistema de transmiss\IeC {\~a}o com microcontrolador alimentando o LED de baixa pot\IeC {\^e}ncia.}}{46}{figure.2.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Sistema de transmiss\IeC {\~a}o com conversor digital anal\IeC {\'o}gico e circuito chaveador de LED de alta pot\IeC {\^e}ncia.}}{47}{figure.2.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Luz provoca agita\IeC {\c c}\IeC {\~a}o das cargas livres no fotodiodo que geram a recombina\IeC {\c c}\IeC {\~a}o de pares el\IeC {\'e}trons lacuna.}}{48}{figure.2.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Processo de reconstru\IeC {\c c}\IeC {\~a}o da mensagem original.}}{49}{figure.2.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Sistema de aquisi\IeC {\c c}\IeC {\~a}o de dados \IeC {\'o}pticos.}}{50}{figure.2.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Receptor futuro.}}{51}{figure.2.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Montagem do hardware proposto, receptor a esquerda e transmissor a direita.}}{55}{figure.3.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Detec\IeC {\c c}\IeC {\~a}o dos dados a 100 Hz, sem erros.}}{57}{figure.3.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Dados apresentados na detec\IeC {\c c}\IeC {\~a}o a 400 Hz apresenta erros significativos.}}{58}{figure.3.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Diagrama de depend\IeC {\^e}ncias proposto para o Trabalho de Conclus\IeC {\~a}o de Curso 2.}}{68}{figure.C.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Cronograma proposto para o Trabalho de Conclus\IeC {\~a}o de Curso 2.}}{69}{figure.C.26}

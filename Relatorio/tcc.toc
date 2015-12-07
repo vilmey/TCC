@@ -1,0 +1,73 @@
+\changetocdepth {4}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{INTRODU\IeC {\c C}\IeC {\~A}O}{25}{chapter*.13}
+\contentsline {section}{Motiva\IeC {\c c}\IeC {\~a}o}{25}{section*.14}
+\contentsline {section}{Objetivos}{26}{section*.15}
+\contentsline {section}{Estrutura do texto}{26}{section*.16}
+\contentsline {part}{\partnumberline {I}\MakeTextUppercase {Fundamentos da Comunica\IeC {\c c}\IeC {\~a}o por Luz Vis\IeC {\'\i }vel}}{27}{part.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {HIST\IeC {\'O}RICO}}{29}{chapter.1}
+\contentsline {section}{\numberline {1.1}Meios de Comunica\IeC {\c c}\IeC {\~a}o sem Fio}{30}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}VLC vs. Radiofrequ\IeC {\^e}ncia}{31}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Aplica\IeC {\c c}\IeC {\~o}es}{33}{subsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.2.1}Alcance Ultra Pequeno (Ultra-Short Range)}{33}{subsubsection.1.1.2.1}
+\contentsline {subsubsection}{\numberline {1.1.2.2}Pequeno Alcace (Short Range)}{33}{subsubsection.1.1.2.2}
+\contentsline {subsubsection}{\numberline {1.1.2.3}M\IeC {\'e}dio Alcance (Medium Range)}{35}{subsubsection.1.1.2.3}
+\contentsline {subsubsection}{\numberline {1.1.2.4}Longo Alcance (Long Range)}{35}{subsubsection.1.1.2.4}
+\contentsline {subsubsection}{\numberline {1.1.2.5}Alcance Ultra Longo (Ultra-Long Range)}{37}{subsubsection.1.1.2.5}
+\contentsline {subsubsection}{\numberline {1.1.2.6}Sistema VLC indoor}{37}{subsubsection.1.1.2.6}
+\contentsline {part}{\partnumberline {II}\MakeTextUppercase {Montagem de Hardware}}{39}{part.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {DESIGN DO SISTEMA}}{41}{chapter.2}
+\contentsline {section}{\numberline {2.1}Codifica\IeC {\c c}ao do Canal}{41}{section.2.1}
+\contentsline {section}{\numberline {2.2}Codifica\IeC {\c c}\IeC {\~a}o de Linha}{42}{section.2.2}
+\contentsline {section}{\numberline {2.3}Transmissor \IeC {\'O}ptico}{43}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Emissor de f\IeC {\'o}ton}{43}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Light Emitting Diodes (LEDs)}{44}{subsubsection.2.3.1.1}
+\contentsline {subsection}{\numberline {2.3.2}Escolha do Dispositivo \IeC {\'O}ptico}{45}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Driver do LED}{45}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Mensagem}{45}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Teste do emissor}{46}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Futuros aprimoramentos do emissor}{46}{subsection.2.3.6}
+\contentsline {section}{\numberline {2.4}Receptor \IeC {\'O}ptico}{47}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Detector de f\IeC {\'o}ton}{47}{subsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.1.1}p-n Fotodiodo}{47}{subsubsection.2.4.1.1}
+\contentsline {subsection}{\numberline {2.4.2}Processamento do sinal}{49}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}Conversor de Corrente - Tens\IeC {\~a}o}{50}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}Decodifica\IeC {\c c}\IeC {\~a}o}{51}{subsubsection.2.4.2.2}
+\contentsline {subsection}{\numberline {2.4.3}Futuros aprimoramentos do receptor}{51}{subsection.2.4.3}
+\contentsline {part}{\partnumberline {III}\MakeTextUppercase {Testes do sistema Experimental}}{53}{part.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {TESTES DO SISTEMA}}{55}{chapter.3}
+\contentsline {section}{\numberline {3.1}Metodologia}{55}{section.3.1}
+\contentsline {section}{\numberline {3.2}Montagem}{55}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Transmissor}{56}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Receptor}{56}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Alinhamento e \IeC {\'A}rea de cobertura}{56}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Resultados}{57}{section.3.3}
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Ap\^endices}}{59}{section*.20}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {C\IeC {\'o}digo do Transmissor}}{61}{appendix.A}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {C\IeC {\'o}digo Do Receptor}}{65}{appendix.B}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Cronograma de execu\IeC {\c c}\IeC {\~a}o Tcc2}}{67}{appendix.C}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Refer\^encias}{71}{section*.23}
