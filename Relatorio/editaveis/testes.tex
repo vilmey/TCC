@@ -1,4 +1,4 @@
-\part{Testes do sistema Experimental}
+%\part{Testes do sistema Experimental}
 
 \chapter[TESTES DO SISTEMA]{Testes do Sistema}
 
@@ -23,7 +23,7 @@ Foi utilizado um artefato plástico rígido para manter o Tx e Rx alinhados.
 \begin{figure}
 	\centering
 		\includegraphics[width = 12cm]{figuras/hardware.jpg}
-	\caption{Montagem do hardware proposto, receptor a esquerda e transmissor a direita.}
+	\caption{Montagem do \textit{hardware} proposto, receptor a esquerda e transmissor a direita.}
 	\label{Fig: Montagem Hardware}
 \end{figure}
 
@@ -46,7 +46,7 @@ O controlador em uso no receptor trabalha com tensões de até 5v, e seu convers
 As leituras realizadas com o LED transmissor ligado ficaram estáveis na faixa dos 875, o que implica que o controlador lê 4,28 v na entrada analógica equação[\ref{Eq: Conversão AD}].
 Já com o LED Tx desligado as leituras ficaram nulas, implicando que a luz ambiente não excita tensão na entrada analógica do sistema.
 
-Podemos tomar duas conclusões deste experimento a primeira é que estabelecemos um nível de threshold que define se a leitura é de um bit de nível alto ou de um bit de nível baixo, e a segunda conclusão é que o sensor mostrou eficiência na detecção de sinais altos e baixos, apresentando grande diferença entre eles, o que reduz o risco de troca de bis 1 por bits 0.
+Podemos tomar duas conclusões deste experimento a primeira é que estabelecemos um nível de \textit{threshold} que define se a leitura é de um bit de nível alto ou de um bit de nível baixo, e a segunda conclusão é que o sensor mostrou eficiência na detecção de sinais altos e baixos, apresentando grande diferença entre eles, o que reduz o risco de troca de bis 1 por bits 0.
 
 
 \subsection{Alinhamento e Área de cobertura}
@@ -60,7 +60,7 @@ Contudo os benefícios tem um custo, e sua viabilidade deve ser analisada.
 
 O sistema de comunicação VLC funcionou com sucesso, apresentando taxas de erro baixa para frequências menores que 400 Hz apresentado na figura [\ref{Fig: 100Hz}]. Para frequnências acima de 400 Hz há erros consideráveis como apresentado na figura [\ref{Fig: 400Hz}]. A taxa de erro da transmissão aumenta exponencialmente entre os valores maiores que 300 Hz. Fato que pode ser atribuido a limitações de hardware tanto para excitar o led devidamente quanto para detectar o sinal óptico.
 
-As propostas de implementação de hardware futuros visam sanar tais limitações e ainda abrir a possibilidade de ampliar a taxa de envio de dados.
+As propostas de implementação de \textit{hardware} futuros visam sanar tais limitações e ainda abrir a possibilidade de ampliar a taxa de envio de dados.
 
 Apesar do sistema proposto ser apenas para prova de conceito, e não a versão final, esta tecnologia mostra muito potencial na área de telecomunicações pelo fato de possuir várias áreas de aplicação, além de um grande salto nas taxas de transmissão.
 

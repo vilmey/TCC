@@ -1,36 +1,38 @@
 \begin{siglas}
 
 
-\item [ADC] 		Analog to Digital Converter
-\item [BER] 		Bit Error Rate
-\item [DAC] 		Digital to Analog Converter
-\item [FSO]		Free Space Optics
+\item [A.C.]		Antes de Cristo
+\item [ADC] 		\textit{Analog to Digital Converter}
+\item [BER] 		\textit{Bit Error Rate}
+\item [DAC] 		\textit{Digital to Analog Converter}
+\item [DC]		Corrente Contínua
+\item [FSO]		\textit{Free Space Optics}
 \item [Hz] 		Hertz
-\item [IEEE] 	Institute of Electrical and Electronics Engineers
-\item [ISM]		Industrial, Scientific and Medical
-\item [Laser] 	Light Amplification by Stimulated Emission of Radiation
+\item [IEEE] 	\textit{Institute of Electrical and Electronics Engineers}
+\item [ISM]		\textit{Industrial, Scientific and Medical}
+\item [Laser] 	\textit{Light Amplification by Stimulated Emission of Radiation}
 \item [LED] 		Diodo emissor de luz
-\item [LD] 		Laser Diode
+\item [LD] 		Diodo Laser
 \item [m] 		Metros
 \item [Mbps]	 	Mega bits por segundo
-\item [NASA]		The National Aeronautics and Space Administration
-\item [OOK] 		On-Off Keying
-\item [OWC] 		Optical Wireless Communication
-\item [RF] 		Radio frequency
-\item [Rx]		Transmit
+\item [NASA]		\textit{The National Aeronautics and Space Administration}
+\item [OOK] 		\textit{On-Off Keying}
+\item [OWC] 		\textit{Optical Wireless Communication}
+\item [RF] 		Rádio frequencia
+\item [Rx]		Transmissor
 \item [s] 		Segundos
-\item [SNR] 		Signal to Noise Ratio
+\item [SNR] 		\textit{Signal to Noise Ratio}
 \item [Tbps]		Tera bits por segundo
-\item [TIA]		Transimpedance Amplifier
-\item [Tx]		Receive
-\item [UART] 	Universal Asynchronus Receiver/Transmitter
-\item [USB] 		Universal Serial Bus
-\item [VLC] 		Visual Light Communication
-\item [VCCD]		Voltage Control Current Driver
-\item [WBAN]		Wireless Body Area Networks
-\item [WPAN]		Wireless Personal Area Network
-\item [WLAN]		Wireless Local Area network 
-\item [WMAN]		Wireless Metropolitan Area Network
+\item [TIA]		Amplificador de Transimpedância
+\item [Tx]		Receptor
+\item [UART] 	\textit{Universal Asynchronus Receiver/Transmitter}
+\item [USB] 		\textit{Universal Serial Bus}
+\item [VLC] 		\textit{Visual Light Communication}
+\item [VCCD]		\textit{Voltage Control Current Driver}
+\item [WBAN]		\textit{Wireless Body Area Networks}
+\item [WPAN]		\textit{Wireless Personal Area Network}
+\item [WLAN]		\textit{Wireless Local Area network}
+\item [WMAN]		\textit{Wireless Metropolitan Area Network}
 
 
 

@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o a Comunica\IeC {\c c}\IeC {\~a}o \IeC {\'O}ptica sem Fio}{2}{0}{1}
+\beamer@subsubsectionintoc {1}{0}{1}{Medium-Range}{18}{0}{1}
+\beamer@subsectionintoc {1}{1}{OWC vs R\IeC {\'a}dio}{23}{0}{1}
+\beamer@subsectionintoc {1}{2}{Topologia de comunica\IeC {\c c}\IeC {\~a}o}{24}{0}{1}
+\beamer@sectionintoc {2}{Hardware}{25}{0}{2}
+\beamer@subsectionintoc {2}{1}{Mensagem}{27}{0}{2}
+\beamer@subsectionintoc {2}{2}{Transmissor}{28}{0}{2}
+\beamer@subsectionintoc {2}{3}{Receptor}{30}{0}{2}
+\beamer@sectionintoc {3}{Teste}{32}{0}{3}
+\beamer@sectionintoc {4}{Propostas Futuras}{36}{0}{4}

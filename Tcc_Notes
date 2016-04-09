@@ -1,0 +1,38 @@
+ - A UART (Universal Asynchronous Receiver/Transmitter) - Envia e recebe dados assincronamente, e para que isso fincione bem as informacoes sao encapsuladas (framing) que garante que o transmissor e receptor vao definir comeco e fim do pacote assim como a payload.
+ Geralmente o primeiro bit e o start bit que determina o inicio da mensagem, entao a payload (mensagem) e transmitida geralmente entre 5 -8 bits, ao final da messagem e transmitido um bit de paridade, opcional, e pro fim um bit de fim de comunicacao.
+
+Para a transmissao de dados via UART, geralmente usamos little-endian em que transmitimos os LSB primeiro.
+
+Para o uso do UART e preciso que tanto o tranmissor quanto o receptor acordem no protocolo: timing 
+de recepcao e sequencia de transmissao e envio.
+
+Por exemplo, para enviar o caracter D em ASCII :
+
+	- D = 0x44 = 0b1000100
+	- Como geralmente usamos little-endian:
+	- payload = 0010001
+	- Lembramos que o UART utiliza o logico alto (1), como padrao de inativo.
+		- Entao o start bit utilizado e um 0.
+		- O stop bit retorn para o inativo, mandando um bit =1.
+	- O resultado atual e:
+		00010001x1 - O x representa o bit de paridade que pode ser adcionado.
+		- Se escolhermos a paridade (impar), temos dois 1's na representacao do D
+		entao adcionamos o bit 1 para fazer com que a palavra completa (payload) tera
+		um numero impar de 1's.
+
+
+
+
+
+- Taxa de comunicacao - Baud Rate (bits per secong) representa o numero de bits que podem ser transmitido atraves do meio, e nao somente o montate de informacao que e movido de um device para o outro (payload). Entao isso inclui o pit de paridade e os bits de start e stop.
+As taxas de transmissao mais comuns sao : 300, 1200, 4800, 9600, ou 115200 baud(bps).
+
+
+
+
+
+
+
+
+
+

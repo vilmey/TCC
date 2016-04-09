@@ -1,4 +1,4 @@
-\part{Fundamentos da Comunicação por Luz Visível}
+%\part{Fundamentos da Comunicação por Luz Visível}
 
 \chapter[HISTÓRICO]{História do VLC}
 
@@ -18,13 +18,13 @@ Um dos primeiros sistemas de comunicação óptica a utilizar detectores eletrô
 \begin{figure}
 	\centering
 	\label{Desenho do fotofone por Alexander Graham Bell e Charles Tainter}
-		\includegraphics[width = 12cm]{figuras/fotofone}
+		\includegraphics[width = 12cm]{figuras/fotofone.png}
 	\caption{Desenho do fotofone por Alexander Graham Bell e Charles Tainter \cite{Hranilovic}}
 \end{figure}
 
 A figura [\ref{Desenho do fotofone por Alexander Graham Bell e Charles Tainter}] apresenta o desenho do dispositivo feito pelos criadores. O sistema foi projetado para transmitir a voz do operador a distância pela modulação da luz do sol que refletia em um diafragma. Do outro lado o receptor consiste de um cristal de selênio que converte o sinal óptico em corrente elétrica. Com este aparato, os criadores eram capazes de transmitir sinais de áudio a uma distância de 213 metros. \cite{Fotofone}
 
-A era moderna de comunicação óptica indoor iniciou em 1979 por F.R. Gfeller e U. Bapst com o uso de transmissões difusas na faixa de infravermelho para comunicação óptica de médio alcance.\cite{Gfeller}
+A era moderna de comunicação óptica \textit{indoor} iniciou em 1979 por F.R. Gfeller e U. Bapst com o uso de transmissões difusas na faixa de infravermelho para comunicação óptica de médio alcance.\cite{Gfeller}
 
 
 \section{Meios de Comunicação sem Fio}
@@ -37,7 +37,7 @@ Com o passar dos anos as regulamentações mudaram e as faixas de RF que antes e
 	\centering
 	\begin{tabular}{cc}
 		\toprule
-		\textbf{Bandas ISM} & \textbf{Limite de Potencia (Watts)} \\
+		\textbf{Bandas ISM} & \textbf{Limite de Potência (Watts)} \\
 		\midrule
 		\textbf{902 - 928 Mhz} &  \\ \hline
 		Telefone sem Fio & 1 W\\
@@ -53,25 +53,25 @@ Com o passar dos anos as regulamentações mudaram e as faixas de RF que antes e
 		Wi-Fi - 802.11a/n/ac & 4 W \\
 		\bottomrule
 	\end{tabular}
-	\caption{Frequências utilizadas pelos dispositivos de comunicação RF wireless padrão \cite{ISM}}
+	\caption{Frequências utilizadas pelos dispositivos de comunicação RF \textit{wireless} padrão \cite{ISM}}
 	\label{Tab: frequencias RF}
 \end{table}
 
 Na tabela [\ref{Tab: frequencias RF}] são apresentadas os protocolos e dispositivos que usufruem da bada ISM. Estão presentes na lista dispositivos militares e industriais, e também dispositivos muito utilizados no nosso dia a dia como é o caso da tecnologia Bluetooth, IEEE 802.15, e do Wi-Fi, IEEE 802.11. 
 
-O Bluetooth é  um das tecnologias mais populares de WPAN, Wireless Personal Area Network, e pode ser encontrado na maioria dos telefones portáteis atuais. 
-Sendo uma tecnologia que atua em na área pessoal de comunicação ponto a ponto, a tecnologia bluetooth substitui conexões físicas de diversas maneiras, como por exemplo telefone celular e headsets e monitores cardíacos e equipamento medico.\cite{1368913}
+O Bluetooth é  um das tecnologias mais populares de WPAN, \textit{Wireless Personal Area Network}, e pode ser encontrado na maioria dos telefones portáteis atuais. 
+Sendo uma tecnologia que atua em na área pessoal de comunicação ponto a ponto, a tecnologia bluetooth substitui conexões físicas de diversas maneiras, como por exemplo telefone celular e fones de ouvido além de monitores cardíacos e equipamento médico.\cite{1368913}
 Hoje a distância de cobertura pode alcançar os 50 metros com a tecnologia Bluetooth 4.0. \cite{Bluetooth}
 
-Já o protocolo de comunicação Wi-Fi é destinado ao uso em WLAN, Wireless Local Area Network. Como a área de cobertura do Wi-Fi é maior, dispositivos portadores desta tecnologia são utilizados em escritórios, escolas e laboratórios podendo conectar dois ou mais dispositivos dentro da área de cobertura.
+Já o protocolo de comunicação Wi-Fi é destinado ao uso em WLAN, \textit{Wireless Local Area Network}. Como a área de cobertura do Wi-Fi é maior, dispositivos portadores desta tecnologia são utilizados em escritórios, escolas e laboratórios podendo conectar dois ou mais dispositivos dentro da área de cobertura.
 
-Com o uso de tantos dispositivos sem fio a banda ISM se encontra congestionada. Em prédios residenciais e escritórios vários modems disputam por um dos canais de comunicação disponíveis, e quando não o encontram o resultado é a interferência dos sinais e impossibilidade da comunicação do host com o modem.
+Com o uso de tantos dispositivos sem fio a banda ISM se encontra congestionada. Em prédios residenciais e escritórios vários modems disputam por um dos canais de comunicação disponíveis, e quando não o encontram o resultado é a interferência dos sinais e impossibilidade da comunicação do \textit{host} com o modem.
 
 \subsection{VLC vs. Radiofrequência}
 
 Como o número de usuários que utilizam comunicações por radiofrequência tem aumentado consideravelmente nos últimos anos. Isso graças ao crescimento e avanço na tecnologia dos celulares e popularização das redes Wi-Fi. Os serviços de comunicação sem fio se tornaram indispensáveis, porém este sistema ainda apresenta algumas desvantagens.
 
-Um do grandes problemas é a capacidade. O espectro de rádio é relativamente pequeno, e seu uso é limitado e ainda o seu licenciamento é caro. A comunicação Wi-Fi disputa parte da banda ISM, apresentado na tabela [\ref{Tab: frequencias RF}], com outros dispositivos eletrônicos como telefones sem fio e fornos microondas. Por este fato podemos constatar que a bada dedicada a esta comunicação está congestionada.\cite{boucheto.2006} Como possível solução, podemos utilizar o espectro de luz visível. O VLC é uma modalidade de comunicação sem fio onde os dados são modulados na porção de luz visível do espectro eletromagnético, que compreende a faixa de comprimento de onda dos 380 nm aos 780 nm aproximadamente, apresentado na figura[\ref{Fig: espectro-visivel-da-luz}]. Com o VLC problemas de interferência por radiofrequência são minimizados.
+Um do grandes problemas é a capacidade. O espectro de rádio é relativamente pequeno, e seu uso é limitado e ainda o seu licenciamento é caro. A comunicação Wi-Fi disputa parte da banda ISM, apresentado na tabela [\ref{Tab: frequencias RF}], com outros dispositivos eletrônicos como telefones sem fio e fornos microondas. Por este fato podemos constatar que a bada dedicada a esta comunicação está congestionada.\cite{boucheto.2006} Como possível solução, podemos utilizar o espectro de luz visível. O VLC é uma modalidade de comunicação sem fio onde os dados são modulados na porção de luz visível do espectro eletromagnético, que compreende a faixa de comprimento de onda dos 380 $\eta$m aos 780$\eta$m aproximadamente, apresentado na figura[\ref{Fig: espectro-visivel-da-luz}]. Com o VLC problemas de interferência por radiofrequência são minimizados.
 Se comparado o tamanho do espectro de luz visível com o espectro de ondas de rádio, percebemos que o espectro de trabalho do VLC é muito maior. Fato que garante maior largura de banda de transmissão.
 
 \begin{figure}
@@ -84,7 +84,7 @@ Se comparado o tamanho do espectro de luz visível com o espectro de ondas de r�
 
 O VLC é o tipo de tecnologia do futuro, pois busca agregar em um só produto a economia de energia com o uso de lampadas LED, que são energeticamente eficientes, com o envio de dados em altas taxas de transmissão. Sem contar o fato de que o custo de investimento no design de um sistema VLC é muito menor quando comparado aos sistemas de RF.
 
-É sabido que existe o problema de disponibilidade de ondas de RF. Visto que em certas situações não é recomendado utilizar ondas de rádio, como em voos e hospitais. Pois o mesmo pode gerar interferência em outros aparelhos. Nestes casos podemos usar o VLC onde é necessário que haja iluminação do ambiente e ainda a comunicação de aparelho sem que haja interferência com sistemas baseados em radiofrequência. Há também o fator de segurança, já que ondas de rádio atravessam paredes e podem ser detectadas em uma vasta área. O VLC transmite dados até onde a luz alcança, se o sistema de comunicação estiver confinado em uma sala, os arredores e salas vizinhas não terão qualquer informação sobre a rede VLC.
+É sabido que existe o problema de disponibilidade ao uso de faixas de ondas de RF. Visto que em certas situações não é recomendado utilizar ondas de rádio, como em voos e hospitais. Pois o mesmo pode gerar interferência em aparelhos de navegação e medicos. Nestes casos podemos usar o VLC onde é necessário que haja iluminação do ambiente e ainda a comunicação de aparelho sem que haja interferência com sistemas baseados em radiofrequência. Há também o fator de segurança, já que ondas de rádio atravessam paredes e podem ser detectadas em uma vasta área. O VLC transmite dados até onde a luz alcança, se o sistema de comunicação estiver confinado em uma sala, os arredores e salas vizinhas não terão qualquer informação sobre a rede VLC.
 
 \begin{table}[h]
 	\centering
@@ -94,7 +94,7 @@ O VLC é o tipo de tecnologia do futuro, pois busca agregar em um só produto a 
 		\textbf{Rádio}\\
 		\midrule
 		Custo & \$ & \$\$\\
-		Design de circuito RF ? & Não & Sim\\
+		\textit{Design} de circuito RF ? & Não & Sim\\
 		Faixa regulamentada & Não & Sim\\
 		Taxa de transmissão & 100 Mbps & 10 Mbps\\
 		Segurança & Alta & Baixa\\
@@ -106,12 +106,12 @@ O VLC é o tipo de tecnologia do futuro, pois busca agregar em um só produto a 
 	\label{Tab: Rádio vs VLC}
 \end{table}
 
-Em suma a utilização da radiofrequência permite a comunicação indoor e conexões de pequena distância sem a necessidade de cabos. Contudo essa solução continua relativamente cara e permite apenas médias taxas de transmissão como mostrado na tabela [\ref{Tab: Rádio vs VLC}].  As faixas de frequência utilizadas pelas conexões de RF são regulamentadas, e essas regulamentações variam de 
+Em suma a utilização da radiofrequência permite a comunicação \textit{indoor} e conexões de pequena distância sem a necessidade de cabos. Contudo essa solução continua relativamente cara e permite apenas médias taxas de transmissão como mostrado na tabela [\ref{Tab: Rádio vs VLC}].  As faixas de frequência utilizadas pelas conexões de RF são regulamentadas, e essas regulamentações variam de 
 país para país, fazendo com que estabelecer um padrão seja difícil. Adicionalmente, a natureza das comunicações RF permitem conexão móvel, porém cria problemas de interferência entre dispositivos próximos ao transmissor. A contenção de energia eletromagnética em frequência de rádio ainda é difícil, e se esta contenção for feita de maneira inapropriada pode impedir a performance do sistema.
 
 \subsection{Aplicações}
 
-As aplicações do sisteme de comunicação optico sem fio são as mais variadas. Nesta seção foram organizadas as aplicações de um VLC de acordo com o alcance da transmissão. Para mostrar a versatilidade desse sistema podemos aplicá-lo na comunicação entre circuitos integrados, CIs na ordem de milímetros, e até mesmo na comunicação entre satélites, na ordem de dezenas de quilômetros como mostrado na figura [\ref{Fig: faixas-de-alcance}].
+As aplicações do sisteme de comunicação óptico sem fio são as mais variadas. Nesta seção foram organizadas as aplicações de um VLC de acordo com o alcance da transmissão. Para mostrar a versatilidade desse sistema podemos aplicá-lo na comunicação entre circuitos integrados, CIs na ordem de milímetros, e até mesmo na comunicação entre satélites, na ordem de dezenas de quilômetros como mostrado na figura [\ref{Fig: faixas-de-alcance}].
 
 \begin{figure}
 	\centering
@@ -120,10 +120,10 @@ As aplicações do sisteme de comunicação optico sem fio são as mais variadas
 	\label{Fig: faixas-de-alcance}
 \end{figure}
 
-\subsubsection{Alcance Ultra Pequeno (Ultra-Short Range)}
+\subsubsection{Alcance Ultra Pequeno (\textit{Ultra-Short Range})}
 
 Atualmente estão sendo estudados meios de facilitar a transferência de dados dentro de circuitos integrados e circuitos impressos. Diante da grande complexidade dos circuitos e necessidade cada vez maiores de altas taxas de transmissões em barramentos, cientistas buscam fazer comunicação de barramentos via transmissores ópticos o que pode reduzir a complexidade das vias de cobre e aumentar a eficiência na troca de dados.
-Esta tecnologia trabalha na ordem dos milímetros, e esse tipo de sistema geralmente é encontrado no nível de chip, utilizado para comunicar circuitos figura [\ref{Fig: ultra-short}] ou fazer comunicação dentro de um mesmo chip. Com o uso deste meio de transmissão rápida, conexões baseadas em cobre serão substituídas. Este processo oferece benefícios na redução da latência dos dispositivos, ou seja o tempo de resposta do circuito será reduzido. Sistemas nesse nível podem ser guiados ou não. Arquiteturas  guiadas promovem um link direto de luz entre o transmissor e o receptor, confinando a luz em uma guia de onda. Enquanto nos sistemas não guiados o feixe de luz é exposto ao ambiente, o que pode causar ruídos e interferências na comunicação.\cite{c.kachrisk.bergmankereni.tomkos2013}
+Esta tecnologia trabalha na ordem dos milímetros, e esse tipo de sistema geralmente é encontrado no nível de \textit{chip}, utilizado para comunicar circuitos figura [\ref{Fig: ultra-short}] ou fazer comunicação dentro de um mesmo \textit{chip}. Com o uso deste meio de transmissão rápida, conexões baseadas em cobre serão substituídas. Este processo oferece benefícios na redução da latência dos dispositivos, ou seja o tempo de resposta do circuito será reduzido. Sistemas nesse nível podem ser guiados ou não. Arquiteturas  guiadas promovem um \textit{link} direto de luz entre o transmissor e o receptor, confinando a luz em uma guia de onda. Enquanto nos sistemas não guiados o feixe de luz é exposto ao ambiente, o que pode causar ruídos e interferências na comunicação.\cite{c.kachrisk.bergmankereni.tomkos2013}
 
 \begin{figure}
 	\centering
@@ -132,9 +132,9 @@ Esta tecnologia trabalha na ordem dos milímetros, e esse tipo de sistema geralm
 	\label{Fig: ultra-short}
 \end{figure}
 
-\subsubsection{Pequeno Alcace (Short Range)}
+\subsubsection{Pequeno Alcance (\textit{Short Range})}
 
-Sistemas de curto alcance operam na ordem de centímetros e em geral menos que um metro. Este tipo de comunicação pode ser comparada com o Bluetooth, pois atua na mesma faixa de alcance. Uma situação comum de uso desse tipo de comunicação seria em uma rede Wireless Personal Access Networks (WPAN), assim como em uma rede Wireless Body Access Networks (WBAN). É importante ressaltar que a tecnologia infravermelho geralmente é usada nesse caso, o que não exclui a possibilidade de utilizar a tecnologia VLC. Um exemplo de aplicação desse tipo de sistema se dá em WBAN para hospitais. Centros de saúde  podem eliminar todos os fios que são conectados ao paciente com o uso da tecnologia de comunicação sem fio em aparelhos como medidores de pressão arterial, sensores de glicose, frequência cardíaca entre outros sensores de aquisição de dados figura[\ref{Fig: short}].
+Sistemas de curto alcance operam na ordem de centímetros e em geral menos que um metro. Este tipo de comunicação pode ser comparada com o Bluetooth, pois atua na mesma faixa de alcance. Uma situação comum de uso desse tipo de comunicação seria em uma rede \textit{Wireless Personal Access Networks} (WPAN), assim como em uma rede \textit{Wireless Body Access Networks} (WBAN). É importante ressaltar que a tecnologia infravermelho geralmente é usada nesse caso, o que não exclui a possibilidade de utilizar a tecnologia VLC. Um exemplo de aplicação desse tipo de sistema se dá em WBAN para hospitais. Centros de saúde  podem eliminar todos os fios que são conectados ao paciente com o uso da tecnologia de comunicação sem fio em aparelhos como medidores de pressão arterial, sensores de glicose, frequência cardíaca entre outros sensores de aquisição de dados figura[\ref{Fig: short}].
 
 \begin{figure}
 	\centering
@@ -146,9 +146,9 @@ Sistemas de curto alcance operam na ordem de centímetros e em geral menos que u
 Pesquisas recentes nesta área incluem aplicaçoes que utilizam a câmera de celulares para recepção de dados, onde o sensor integrado, que é um sensor de imagem, é utilizado como detector óptico para a comunicação. O que permite vários tipos de transferencia de dados, como exemplo entre celulares, entre celular e televisão, celular e maquinas de auto-atendimento dentre outros.\cite{c.danakism.afganig.poveyiunderwoodh.haas2012}
 
 
-\subsubsection{Médio Alcance (Medium Range)}
+\subsubsection{Médio Alcance (\textit{Medium Range})}
 
-A comunicação indoor ,WLAN assim como o Wi-Fi, se encontra dentro do sistema de comunicação de médio alcance. Esses sistemas estão sendo desenvolvidos para que possam ser utilizados no espectro de luz visível conhecido como Visual Light Optical Communication (VLC). Por alcance médio definimos sistemas de comunicação com transmissão na ordem de metros, porém geralmente menores que 10 metros. A tecnologia vindoura nessa área é muito promissora devido aos benefícios que esse tipo de comunicação oferece. Como exemplo longa vida de duração, visto a vida útil de um LED, alta tolerância a umidade, baixo consumo de energia devido ao grande avanço na tecnologia de fabricação dos diodos emissores de luz.
+A comunicação \textit{indoor} ,WLAN assim como o Wi-Fi, se encontra dentro do sistema de comunicação de médio alcance. Esses sistemas estão sendo desenvolvidos para que possam ser utilizados no espectro de luz visível conhecido como \textit{Visual Light Optical Communication} (VLC). Por alcance médio definimos sistemas de comunicação com transmissão na ordem de metros, porém geralmente menores que 10 metros. A tecnologia vindoura nessa área é muito promissora devido aos benefícios que esse tipo de comunicação oferece. Como exemplo longa vida de duração, visto a vida útil de um LED, alta tolerância a umidade, baixo consumo de energia devido ao grande avanço na tecnologia de fabricação dos diodos emissores de luz.
 As novas gerações de LEDs devem substituir lâmpadas incandescentes e fluorecentes gradativamente devido a sua capacidade de iluminação com baixo consumo de energia. A tecnologia VLC conta com a onipresença de infraestrutura de iluminação baseadas em LED para o seu sucesso.
 
 A figura [\ref{Fig: medio1}] apresenta um sistema fixo de VLC. A luminária de mesa funciona como um modem Tx e o dispositivo USB como um receptor.
@@ -156,13 +156,13 @@ A figura [\ref{Fig: medio1}] apresenta um sistema fixo de VLC. A luminária de m
 \begin{figure}
 	\centering
 		\includegraphics[width = 7cm]{figuras/medio1}
-	\caption{Um hot spot VLC, onde a luminária funciona como um transmissor e o dispositivo USB como um receptor do sinal.}
+	\caption{Um \textit{hotspot} VLC, onde a luminária funciona como um transmissor e o dispositivo USB como um receptor do sinal.}
 	\label{Fig: medio1}
 \end{figure}
 
-Além de aplicações indoor, LEDs estão sendo vastamente utilizados em áreas abertas, para sinalização de tráfego, faróis e lanternas veiculares. Isso favorece a implementação de comunicação entre veículos, assim como automóveis e infraestrutura fixa de comunicação. \cite{Vehicle}
+Além de aplicações \textit{indoor}, LEDs estão sendo vastamente utilizados em áreas abertas, para sinalização de tráfego, faróis e lanternas veiculares. Isso favorece a implementação de comunicação entre veículos, assim como automóveis e infraestrutura fixa de comunicação. \cite{Vehicle}
 
-Veículos que possuem LEDs em faróis e lnatarna podem se comunicar com os carros próximos a ele, e com a infraestrutura, fixa nas rodovias como apresentado na figura [\ref{Fig: medio2}].
+Veículos que possuem LEDs em faróis e lanterna podem se comunicar com os carros próximos a ele, e com a infraestrutura, fixa nas rodovias como apresentado na figura [\ref{Fig: medio2}].
 
 \begin{figure}
 	\centering
@@ -172,11 +172,11 @@ Veículos que possuem LEDs em faróis e lnatarna podem se comunicar com os carro
 \end{figure}
 
 
-\subsubsection{Longo Alcance (Long Range)}
+\subsubsection{Longo Alcance (\textit{Long Range})}
 
-Sistemas de longo alcance operam na ordem dos quilômetros, porém não mais do que 10 quilômetros figura[\ref{Fig: longo1}]. É utilizado em geral em redes Wireless Metropolitan Access Networks (WMAN) que estão sendo desenvolvidos usando Free Space Optical Communication, que nada mais representa o não confinamento do luz.
+Sistemas de longo alcance operam na ordem dos quilômetros, porém não mais do que 10 quilômetros figura[\ref{Fig: longo1}]. É utilizado em geral em redes \textit{Wireless Metropolitan Access Networks} (WMAN) que estão sendo desenvolvidos usando \textit{Free Space Optical Communication}, que nada mais representa o não confinamento do luz utilizada na comunicação.
 Em comparação com o RF, uma conexão óptica FSO, possui maior largura de banda, pode chegar a taxas de transferência de dados de até Tbps. \cite{g.parcaa.shahpariv.carrozzog.tossia.j.teixeira2008}
-Sistemas FSO tem chamado a atenção como uma solução eficiente de conexão entre o usuário final e a infraestrutura de fibra óptica.
+Sistemas FSO tem chamado a atenção como uma solução eficiente de conexão entre o usuário final e a infraestrutura de fibra óptica dos provedores de internet.
 
 \begin{figure}
 	\centering
@@ -185,7 +185,7 @@ Sistemas FSO tem chamado a atenção como uma solução eficiente de conexão en
 	\label{Fig: longo1}
 \end{figure}
 
-A comunicação wireless óptica de longo alcance também tem sido projetada para que possa ser aplicada a aeronaves figura [\ref{Fig: longo2}], e nesse quesito a maior diferença está no fato de que tanto o receptor quanto o transmissor podem estar em movimento. Para que haja uma comunicação eficiente devem ser adicionadas ao sistemas dispositivos de rastreamento para localizar o destinatário desejado com o uso de algoritmos de posicionamento. \cite{Haan}
+A comunicação sem fio óptica de longo alcance também tem sido projetada para que possa ser aplicada a aeronaves figura [\ref{Fig: longo2}], e nesse quesito a maior diferença está no fato de que tanto o receptor quanto o transmissor podem estar em movimento. Para que haja uma comunicação eficiente devem ser adicionadas ao sistemas dispositivos de rastreamento para localizar o destinatário desejado com o uso de algoritmos de posicionamento. \cite{Haan}
 
 \begin{figure}
 	\centering
@@ -195,15 +195,15 @@ A comunicação wireless óptica de longo alcance também tem sido projetada par
 \end{figure}
 
 
-\subsubsection{Alcance Ultra Longo (Ultra-Long Range)}
+\subsubsection{Alcance Ultra Longo (\textit{Ultra-Long Range})}
 
-\textit{Ultra-Long Range} OWC faz o maior salto dentre as diferentes classificações de alcance. Esses sistemas são projetados para comunicar entre uma estação base e um satélite, de satélite para satélite ou até mesmo de planeta a planeta! O FSO nesta classificação trabalha com distâncias na ordem das dezenas de milhares de quilômetros. Em outubro de 2013, a agência espacial Norte Americana NASA com seu \textit{Lunar Laser Communication} alcançou a taxa de transmissão de 622 Mbps entre a Terra e a Lua. Ou seja atingimos a faixa de mega bits por segundo de transferencia a distância de 384 600 quilômetros entre o Tx e Rx.\cite{NASA}
+O sistema de comunicação de alcance ultra longo, OWC, faz o maior salto dentre as diferentes classificações de alcance. Esses sistemas são projetados para comunicar entre uma estação base e um satélite, de satélite para satélite ou até mesmo de planeta a planeta! O FSO nesta classificação trabalha com distâncias na ordem das dezenas de milhares de quilômetros. Em outubro de 2013, a agência espacial Norte Americana NASA com seu \textit{Lunar Laser Communication} alcançou a taxa de transmissão de 622 Mbps entre a Terra e a Lua. Ou seja atingimos a faixa de mega bits por segundo de transferencia a distância de 384 600 quilômetros entre o transmissor e o receptor.\cite{NASA}
 
 
 
-\subsubsection{Sistema VLC indoor}
+\subsubsection{Sistema VLC \textit{indoor}}
 
-Até o final dos anos 90, a maioria dos Óptical Wireless Communication era feita através da comunicação no espaço livre (FSO) a qual era operada essencialmente no espectro infravermelho das ondas eletromagnéticas. Até que finalmente nos anos 2000 foi desenvolvida e implementada a tecnologia VLC, comunicação por luz visível. A faixa de luz visível ao ser humano fica entre os comprimentos de onda de 375nm e 780nm como mostrado na figura[\ref{Fig: espectro-visivel-da-luz}]. O maior benefício desse sistema é que estaremos resolvendo dois problemas em um, o primeiro é claro transmitir informação a uma alta taxa, e o segundo problema que será resolvido é a iluminação do ambiente em que se quer coletar a informação. O objetivo desse sistema é produzir luz branca por meio de um diodo emissor de luz (LED), o qual pode ser alcançado combinando três canais de informação, um em cada uma das cores primarias vermelho, verde e azul. Outra alternativa seria a utilização de apenas um canal na faixa de luz branca. \cite{euntaewon&dongjaeshind.k.jung.2008}
+Até o final dos anos 90, a maioria da comunicação óptica sem fio era feita através da comunicação no espaço livre (FSO) a qual era operada essencialmente no espectro infravermelho das ondas eletromagnéticas. Até que finalmente nos anos 2000 foi desenvolvida e implementada a tecnologia VLC, comunicação por luz visível. A faixa de luz visível ao ser humano fica entre os comprimentos de onda de 375$\eta$m e 780$\eta$m como mostrado na figura[\ref{Fig: espectro-visivel-da-luz}]. O maior benefício desse sistema é que estaremos resolvendo dois problemas em um, o primeiro é claro transmitir informação a uma alta taxa de transferência, e o segundo problema que será resolvido é a iluminação do ambiente da área de cobertura do ponto de acesso. O objetivo desse sistema é produzir luz branca por meio de um diodo emissor de luz (LED), o qual pode ser alcançado combinando três canais de informação, um em cada uma das cores primarias vermelho, verde e azul. Outra alternativa seria a utilização de apenas um canal na faixa de luz branca. \cite{euntaewon&dongjaeshind.k.jung.2008}
 
 
 \begin{figure}
@@ -215,7 +215,7 @@ Até o final dos anos 90, a maioria dos Óptical Wireless Communication era feit
 
 
 Existem diversas maneiras de implementar um VLC fisicamente, os principais tipos são listados abaixo com diferentes combinações para cada categoria.
-As transmissões podem ocorrer na linha de visão (\textit{Line-of-Sight}), como são os exemplos 1, 2 e 3 da figura [\ref{Fig: difuso}]. Este tipo de comunicação não conta com a reflexão do sinal em objetos ou obstáculos, cortando o link assim que algo interrompe a linha de comunicação direta.
+As transmissões podem ocorrer na linha de visão (\textit{Line-of-Sight}), como são os exemplos 1, 2 e 3 da figura [\ref{Fig: difuso}]. Este tipo de comunicação não conta com a reflexão do sinal em objetos ou obstáculos, cortando o \textit{link} assim que algo interrompe a linha de comunicação direta.
 
 Já as transmissões que contam com a reflexão do sinal para alcançar o receptor são chamados de fora da linha visão (\textit{Non-Line-of-Sight}) e mostrados nos quadros 4, 5 e 6 da figura [\ref{Fig: difuso}]. Tal tipo de configuração confere maior robustez ao sistema pelo fato de garantir a transmissão independente de obstáculos. Permitir que o link continue a operar mesmo com barreiras como pessoas ou móveis presente entre o transmissor e o receptor. Isto torna o uso do sistema mais fácil.
 

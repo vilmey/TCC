@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.26)  4 DEC 2015 17:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.25)  26 JAN 2016 19:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,8 @@ entering extended mode
 (./tcc.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(./fixos/pacotes.tex
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
-Document Class: abntex2 2014/01/26 v1.9.2 abnTeX2
+(./fixos/pacotes.tex (./abntex2.cls
+Document Class: abntex2 2015/04/28 v1.9.5 abnTeX2
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
@@ -1179,9 +1178,14 @@ Package hyperref Warning: Suppressing empty link on input line 2.
 ] [22
 
 ]) (./fixos/indiceAutomatico.tex (./tcc.toc
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 19.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 33.
+ [23]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 14.
- [23]) [24])
+(Font)              <14.4> on input line 55.
+) [24])
 (./editaveis/introducao.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1189,17 +1193,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 34.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 35.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 34.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 35.
 ) (./editaveis/historico.tex [26]
-[27
-
-] [28]
 Underfull \hbox (badness 10000) in paragraph at lines 5--11
 
  []
@@ -1209,7 +1210,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<figuras/fotofone.png, id=364, 964.60374pt x 411.5375pt>
+<figuras/fotofone.png, id=350, 964.60374pt x 411.5375pt>
 File: figuras/fotofone.png Graphic file (type png)
 
 <use figuras/fotofone.png>
@@ -1218,7 +1219,7 @@ Package pdftex.def Info: figuras/fotofone.png used on input line 21.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
+ [27
 
  <./figuras/fotofone.png>]
 
@@ -1227,7 +1228,7 @@ Package hyperref Warning: Suppressing empty link on input line 56.
 
 Package hyperref Warning: Suppressing empty link on input line 56.
 
-[30] <figuras/espectro-visivel-da-luz.jpg, id=401, 803.0pt x 452.69125pt>
+[28] <figuras/espectro-visivel-da-luz.jpg, id=386, 803.0pt x 452.69125pt>
 File: figuras/espectro-visivel-da-luz.jpg Graphic file (type jpg)
 
 <use figuras/espectro-visivel-da-luz.jpg>
@@ -1237,23 +1238,23 @@ Package pdftex.def Info: figuras/espectro-visivel-da-luz.jpg used on input line
 
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
- [31]
-[32 <./figuras/espectro-visivel-da-luz.jpg>]
-<figuras/faixas-de-alcance.png, id=419, 689.57625pt x 242.9075pt>
+ [29]
+[30 <./figuras/espectro-visivel-da-luz.jpg>]
+<figuras/faixas-de-alcance.png, id=406, 689.57625pt x 242.9075pt>
 File: figuras/faixas-de-alcance.png Graphic file (type png)
 
 <use figuras/faixas-de-alcance.png>
 Package pdftex.def Info: figuras/faixas-de-alcance.png used on input line 118.
 (pdftex.def)             Requested size: 284.52756pt x 100.22652pt.
 
-<figuras/ultra-short.png, id=423, 269.005pt x 138.5175pt>
+<figuras/ultra-short.png, id=410, 269.005pt x 138.5175pt>
 File: figuras/ultra-short.png Graphic file (type png)
 
 <use figuras/ultra-short.png>
 Package pdftex.def Info: figuras/ultra-short.png used on input line 130.
 (pdftex.def)             Requested size: 256.0748pt x 131.8614pt.
- [33 <./figuras/faixas-de-alcance.png>]
-<figuras/short.png, id=431, 225.84375pt x 235.88126pt>
+ [31 <./figuras/faixas-de-alcance.png>]
+<figuras/short.png, id=418, 225.84375pt x 235.88126pt>
 File: figuras/short.png Graphic file (type png)
  <use figuras/short.png>
 Package pdftex.def Info: figuras/short.png used on input line 141.
@@ -1261,27 +1262,27 @@ Package pdftex.def Info: figuras/short.png used on input line 141.
 
 Underfull \vbox (badness 1968) has occurred while \output is active []
 
- [34 <./figuras/ultra-short.png> <./figuras/short.png>]
-<figuras/medio1.png, id=441, 429.605pt x 197.73875pt>
+ [32 <./figuras/ultra-short.png> <./figuras/short.png>]
+<figuras/medio1.png, id=428, 429.605pt x 197.73875pt>
 File: figuras/medio1.png Graphic file (type png)
  <use figuras/medio1.png>
 Package pdftex.def Info: figuras/medio1.png used on input line 158.
 (pdftex.def)             Requested size: 199.16928pt x 91.67299pt.
 
-<figuras/medio2.png, id=445, 475.7775pt x 285.065pt>
+<figuras/medio2.png, id=432, 475.7775pt x 285.065pt>
 File: figuras/medio2.png Graphic file (type png)
  <use figuras/medio2.png>
 Package pdftex.def Info: figuras/medio2.png used on input line 169.
 (pdftex.def)             Requested size: 199.16928pt x 119.335pt.
 
-[35 <./figuras/medio1.png>]
-<figuras/longo1.png, id=457, 520.94624pt x 255.95625pt>
+[33 <./figuras/medio1.png>]
+<figuras/longo1.png, id=443, 520.94624pt x 255.95625pt>
 File: figuras/longo1.png Graphic file (type png)
 
 <use figuras/longo1.png>
 Package pdftex.def Info: figuras/longo1.png used on input line 183.
 (pdftex.def)             Requested size: 199.16928pt x 97.85802pt.
- <figuras/longo2.png, id=461, 576.1525pt x 299.1175pt>
+ <figuras/longo2.png, id=447, 576.1525pt x 299.1175pt>
 File: figuras/longo2.png Graphic file (type png)
 
 <use figuras/longo2.png>
@@ -1290,40 +1291,38 @@ Package pdftex.def Info: figuras/longo2.png used on input line 192.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36 <./figuras/medio2.png> <./figuras/longo1.png> <./figuras/longo2.png>]
-<figuras/difuso.png, id=477, 521.95pt x 296.10625pt>
+ [34 <./figuras/medio2.png> <./figuras/longo1.png> <./figuras/longo2.png>]
+<figuras/difuso.png, id=462, 521.95pt x 296.10625pt>
 File: figuras/difuso.png Graphic file (type png)
  <use figuras/difuso.png>
 Package pdftex.def Info: figuras/difuso.png used on input line 211.
 (pdftex.def)             Requested size: 341.43306pt x 193.70024pt.
 
-[37 <./figuras/difuso.png>]) (./editaveis/design_sistema.tex [38] [39
-
-] [40]
-<figuras/network-connection.png, id=505, 436.78181pt x 107.50162pt>
+[35 <./figuras/difuso.png>]) (./editaveis/design_sistema.tex [36]
+<figuras/network-connection.png, id=483, 436.78181pt x 107.50162pt>
 File: figuras/network-connection.png Graphic file (type png)
 
 <use figuras/network-connection.png>
 Package pdftex.def Info: figuras/network-connection.png used on input line 10.
 (pdftex.def)             Requested size: 436.78075pt x 107.50134pt.
 
-<figuras/diagrama_transmissao.png, id=507, 334.24875pt x 226.29544pt>
+<figuras/diagrama_transmissao.png, id=485, 334.24875pt x 226.29544pt>
 File: figuras/diagrama_transmissao.png Graphic file (type png)
 
 <use figuras/diagrama_transmissao.png>
 Package pdftex.def Info: figuras/diagrama_transmissao.png used on input line 19
 .
 (pdftex.def)             Requested size: 334.24792pt x 226.29488pt.
- [41
+ [37
 
  <./figuras/network-connection.png>]
-<figuras/ook.jpg, id=515, 731.73375pt x 196.48407pt>
+<figuras/ook.jpg, id=492, 731.73375pt x 196.48407pt>
 File: figuras/ook.jpg Graphic file (type jpg)
  <use figuras/ook.jpg>
 Package pdftex.def Info: figuras/ook.jpg used on input line 46.
 (pdftex.def)             Requested size: 341.43306pt x 91.68193pt.
 
-<figuras/pacote.png, id=517, 316.18124pt x 64.59131pt>
+<figuras/pacote.png, id=494, 316.18124pt x 64.59131pt>
 File: figuras/pacote.png Graphic file (type png)
 
 <use figuras/pacote.png>
@@ -1332,9 +1331,9 @@ Package pdftex.def Info: figuras/pacote.png used on input line 55.
 
 Underfull \vbox (badness 3118) has occurred while \output is active []
 
- [42 <./figuras/diagrama_transmissao.png>] [43 <./figuras/ook.jpg> <./figuras/p
+ [38 <./figuras/diagrama_transmissao.png>] [39 <./figuras/ook.jpg> <./figuras/p
 acote.png>]
-<figuras/juncao-pn.png, id=532, 526.96875pt x 210.7875pt>
+<figuras/juncao-pn.png, id=509, 526.96875pt x 210.7875pt>
 File: figuras/juncao-pn.png Graphic file (type png)
 
 <use figuras/juncao-pn.png>
@@ -1343,25 +1342,28 @@ Package pdftex.def Info: figuras/juncao-pn.png used on input line 83.
 
 Underfull \vbox (badness 4084) has occurred while \output is active []
 
- [44 <./figuras/juncao-pn.png>]
-<figuras/sistema-transmissao.png, id=546, 427.29637pt x 269.20575pt>
+ [40 <./figuras/juncao-pn.png>]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 114.
+
+<figuras/sistema-transmissao.png, id=523, 427.29637pt x 269.20575pt>
 File: figuras/sistema-transmissao.png Graphic file (type png)
 
 <use figuras/sistema-transmissao.png>
 Package pdftex.def Info: figuras/sistema-transmissao.png used on input line 121
 .
 (pdftex.def)             Requested size: 341.43306pt x 215.1143pt.
- [45]
-<figuras/sistema-futuro-transmissao.jpg, id=555, 454.69875pt x 141.52875pt>
+ [41]
+<figuras/sistema-futuro-transmissao.jpg, id=533, 454.69875pt x 141.52875pt>
 File: figuras/sistema-futuro-transmissao.jpg Graphic file (type jpg)
 
 <use figuras/sistema-futuro-transmissao.jpg>
 Package pdftex.def Info: figuras/sistema-futuro-transmissao.jpg used on input l
 ine 159.
 (pdftex.def)             Requested size: 341.43306pt x 106.27586pt.
- [46 <./figuras/sistema-transmissao.png>] [47 <./figuras/sistema-futuro-transmi
+ [42 <./figuras/sistema-transmissao.png>] [43 <./figuras/sistema-futuro-transmi
 ssao.jpg>]
-<figuras/fotodiodo.png, id=569, 383.4325pt x 220.825pt>
+<figuras/fotodiodo.png, id=546, 383.4325pt x 220.825pt>
 File: figuras/fotodiodo.png Graphic file (type png)
 
 <use figuras/fotodiodo.png>
@@ -1377,18 +1379,15 @@ LaTeX Warning: Command \' invalid in math mode on input line 199.
 
 LaTeX Warning: Command \' invalid in math mode on input line 199.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48 <./figuras/fotodiodo.png>]
-<figuras/diagrama_recepcao.png, id=596, 330.63525pt x 87.62738pt>
+[44 <./figuras/fotodiodo.png>]
+<figuras/diagrama_recepcao.png, id=572, 330.63525pt x 87.62738pt>
 File: figuras/diagrama_recepcao.png Graphic file (type png)
 
 <use figuras/diagrama_recepcao.png>
 Package pdftex.def Info: figuras/diagrama_recepcao.png used on input line 231.
 (pdftex.def)             Requested size: 341.43306pt x 90.49118pt.
- [49 <./figuras/diagrama_recepcao.png>]
-<figuras/sistema_recepcao.png, id=603, 487.37082pt x 224.037pt>
+ [45 <./figuras/diagrama_recepcao.png>]
+<figuras/sistema_recepcao.png, id=580, 487.37082pt x 224.037pt>
 File: figuras/sistema_recepcao.png Graphic file (type png)
 
 <use figuras/sistema_recepcao.png>
@@ -1405,72 +1404,70 @@ LaTeX Warning: Command \^ invalid in math mode on input line 255.
 
 Underfull \vbox (badness 6268) has occurred while \output is active []
 
- [50 <./figuras/sistema_recepcao.png>]
-<figuras/sistema-futuro-recepcao.png, id=613, 562.1pt x 156.585pt>
+ [46 <./figuras/sistema_recepcao.png>]
+<figuras/sistema-futuro-recepcao.png, id=590, 562.1pt x 156.585pt>
 File: figuras/sistema-futuro-recepcao.png Graphic file (type png)
 
 <use figuras/sistema-futuro-recepcao.png>
 Package pdftex.def Info: figuras/sistema-futuro-recepcao.png used on input line
  279.
 (pdftex.def)             Requested size: 341.43306pt x 95.11292pt.
-) (./editaveis/testes.tex [51 <./figuras/sistema-futuro-recepcao.png>] [52
+) (./editaveis/testes.tex [47 <./figuras/sistema-futuro-recepcao.png>] [48
 
-] [53] [54]
-<figuras/hardware.jpg, id=634, 5331.92pt x 2999.205pt>
+]
+<figuras/hardware.jpg, id=602, 5331.92pt x 2999.205pt>
 File: figuras/hardware.jpg Graphic file (type jpg)
 
 <use figuras/hardware.jpg>
 Package pdftex.def Info: figuras/hardware.jpg used on input line 25.
 (pdftex.def)             Requested size: 341.43306pt x 192.02626pt.
- [55
-
- <./figuras/hardware.jpg>]
+ [49 <./figuras/hardware.jpg>]
 
 LaTeX Warning: Command \c invalid in math mode on input line 42.
 
 
 LaTeX Warning: Command \~ invalid in math mode on input line 42.
 
-[56] <figuras/part4.png, id=648, 909.3975pt x 434.62375pt>
+[50] <figuras/part4.png, id=616, 909.3975pt x 434.62375pt>
 File: figuras/part4.png Graphic file (type png)
 
 <use figuras/part4.png>
 Package pdftex.def Info: figuras/part4.png used on input line 69.
 (pdftex.def)             Requested size: 341.43306pt x 163.18245pt.
- <figuras/part5.png, id=649, 462.72874pt x 566.115pt>
+ <figuras/part5.png, id=617, 462.72874pt x 566.115pt>
 File: figuras/part5.png Graphic file (type png)
 
 <use figuras/part5.png>
 Package pdftex.def Info: figuras/part5.png used on input line 76.
 (pdftex.def)             Requested size: 341.43306pt x 417.72647pt.
-) (./editaveis/apendices.tex [57 <./figuras/part4.png>]
-[58 <./figuras/part5.png>]
+) (./editaveis/apendices.tex [51 <./figuras/part4.png>]
+[52 <./figuras/part5.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-[59
+[53
 
 
-] [60]
+] [54]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 13.
- (./main.c
+ (./codigos/main.c
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 7.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61
+ [55
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62])
-[63] [64
+ [56])
+[57] [58
 
-] (./receptor.ino) [65] [66]
-<figuras/Network_diagram.png, id=841, 1220.56pt x 942.52126pt>
+] (./codigos/receptor/receptor.ino [59]) [60]
+<figuras/Network_diagram.png, id=817, 1220.56pt x 942.52126pt>
 File: figuras/Network_diagram.png Graphic file (type png)
 
 <use figuras/Network_diagram.png>
@@ -1481,7 +1478,7 @@ Overfull \hbox (57.1496pt too wide) in paragraph at lines 31--32
  [][] 
  []
 
-<figuras/Grantt_diagram.png, id=842, 1790.69pt x 512.91624pt>
+<figuras/Grantt_diagram.png, id=818, 1790.69pt x 512.91624pt>
 File: figuras/Grantt_diagram.png Graphic file (type png)
 
 <use figuras/Grantt_diagram.png>
@@ -1495,17 +1492,21 @@ LaTeX Warning: Float too large for page by 34.6522pt on input line 41.
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [67
+ [61
 
-] [68 <./figuras/Network_diagram.png>] [69 <./figuras/Grantt_diagram.png>] [70
+] [62 <./figuras/Network_diagram.png>] [63 <./figuras/Grantt_diagram.png>] [64
 
 ]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 3.
+
 bibitemlist
-[71])
+[65])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[72]
+[66]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1521,7 +1522,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: E3C9344D9A31180D171ACC0443273007;1876.
+(rerunfilecheck)             Checksum: 04D6B32DB136ACD14EB6E463C1CBA39F;1866.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1529,13 +1530,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 14723 strings out of 493304
- 214816 string characters out of 6139870
- 635293 words of memory out of 5000000
- 17464 multiletter control sequences out of 15000+600000
- 81911 words of font info for 56 fonts, out of 8000000 for 9000
+ 14729 strings out of 493304
+ 215029 string characters out of 6139871
+ 637346 words of memory out of 5000000
+ 17467 multiletter control sequences out of 15000+600000
+ 90344 words of font info for 59 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,13n,49p,1163b,2162s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,49p,1191b,2164s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm
@@ -1546,11 +1547,13 @@ ype1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on tcc.pdf (74 pages, 5581111 bytes).
+lic/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmsy8.pfb>
+Output written on tcc.pdf (68 pages, 5622902 bytes).
 PDF statistics:
- 1210 PDF objects out of 1440 (max. 8388607)
- 1050 compressed objects within 11 object streams
- 347 named destinations out of 1000 (max. 500000)
- 628 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1182 PDF objects out of 1200 (max. 8388607)
+ 1026 compressed objects within 11 object streams
+ 343 named destinations out of 1000 (max. 500000)
+ 604 words of extra memory for PDF output out of 10000 (max. 10000000)
 
